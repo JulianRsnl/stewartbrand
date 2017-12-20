@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+#page1{
+	width:980px;
+	height:680px;
+	margin: auto;
+	margin-top: -30px;
+}
+
+#fondpage1{
+	
+	background-image: url("images/fondpage1.jpg");
+	background-repeat: no-repeat;
+	margin-top: -50px;
+}
+
+h1{
+	font-size:300%;
+	position:relative;
+	z-index: 10;
+}
+
+#stewartbrandnu{
+	margin-top: 500px;
+	position: fixed;
+	left: 585px;
+	top:-250px;
+}
+
+#page2{
+	width:980px;
+	height:680px;
+	margin: auto;
+}
+
+#vetementsmilitaire{
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	left: 400px;
+	top:250px;
+}
+
+#arpanet{
+	border: 3px solid black;
+	width: 500px;
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	background-color: white;
+	left:230px;
+	top:270px;
+}
+
+#fond2{
+	margin-top: -200px;
+	background-image: url("images/fondpage2.png");
+	background-repeat: no-repeat;
+	margin-top: -200px;
+}
+
+#page3{
+	width:980px;
+	height:680px;
+	margin: auto;
+}
+
+#fond3{
+	margin-top: -300px;
+}
+
+#meredemos{
+	border: 3px solid black;
+	width: 500px;
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	background-color: white;
+	left:-230px;
+	top:270px;
+}
+
+#vetementsingenieur{
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	left: 400px;
+	top:250px;
+}
+
+#page4{
+width:980px;
+	height:680px;
+	margin: auto;
+}
+
+#wholeearth{
+	border: 3px solid black;
+	width: 500px;
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	background-color: white;
+	left:230px;
+	top:270px;
+}
+
+#vetementshippie{
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	left: 400px;
+	top:250px;
+}
+
+#fond4{
+	margin-top: -290px;
+}
+
+#page5{
+	width:980px;
+	height:680px;
+	margin: auto;
+}
+
+#conclusion{
+	border: 3px solid black;
+	width: 500px;
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	background-color: white;
+	top:270px;
+}
+
+#gifendingpage{
+	margin: auto;
+	position:relative;
+	z-index: 10;
+	left: 400px;
+	top:250px;
+}
+
+nav{
+	height:500px;
+	position: fixed;
+	right:0px;
+	top:150px;
+}
+
+li{
+	height:80px;
+	width:80px;
+	margin-top: 10px;
+}

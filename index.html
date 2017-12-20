@@ -1,0 +1,98 @@
+<html>
+
+<head>
+        <title>Stewart Brand dans tous ses états</title>
+        <meta charset="utf-8">
+        <meta name="Stewart Brand sous tout ses états" content="description">
+        <LINK href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+            <h1>Stewart Brand dans tous ses états</h1>
+        </header>
+
+        <nav>
+            <ul> 
+                <li>
+                   <a  class="js-scrollTo" href="#page1"> <img src="images/nav0.png" alt="bouton acceuil"/> </a>
+                </li>
+                <li>
+                   <a  class="js-scrollTo" href="#page2">  <img src="images/nav1.png" alt="bouton militaires"/></a>
+                </li>
+                <li>
+                   <a class="js-scrollTo" href="#page3">  <img src="images/nav2.png" alt="bouton ingenieurs"/></a>
+                </li>
+                <li>
+                   <a class="js-scrollTo" href="#page4">  <img src="images/nav3.png" alt="bouton hippies"/></a>
+                </li>
+                <li>
+                   <a class="js-scrollTo" href="#page5">  <img src="images/nav0.png" alt="bouton ending page"/></a>
+                </li>
+
+            </ul>
+
+        </nav>  
+
+    <div id="conteneur">
+    		<img id="stewartbrandnu" src="images/stewartbrandnu.png" alt="stewart brand sans vetements"/>  
+        <section id="page1">
+        	<img id="fondpage1" src="images/fondpage1.jpg" alt="toutes les communautés"/>
+        </section>
+        <section id="page2">
+            <article>
+            	<img id="vetementsmilitaire" src="images/vetementsmilitaire.png" alt="stewart brand en militaire"/>  
+            	<div id="arpanet">          
+             		<h2>l’ARPANET<h2>
+             		<p>Etant le département américain de la défense à la fin des années 1960, la DARPA vise à réaliser un réseau de transmission de données à distance entre différents centres de recherche. C'est donc l'ARPANET qui verra le jour en 1969. Il relie d'abord quelques universités entre elles jusqu'à connecter une quarantaine de sites en 1972.
+             		</p>
+         		</div>	
+             <img id="fond2" src="images/fondpage2.png" alt="char militaires"/>          	
+            </article>
+        </section>
+        <section id="page3">
+            <article>
+            	<img id="vetementsingenieur" src="images/vetementsingenieur.png" alt="stewart brand en ingenieur"/> 
+            	<div id="meredemos"> 
+                	<h3>La mère de toutes les démos</h3>
+                	<p>Le 9 décembre 1968 Stewart Brand est là, derrière sa caméra pour filmer une avant première mondial en informatique ! Le cœur de ce grand évènement ? Doug Engelbart qui présente pour la toute première fois au monde entier le principe et le fonctionnement de la souris d'ordinateur en communiquant simultanément avec une deuxième personne à distance, de la magie pour l'époque !</p>
+            	</div>
+                <img id="fond3" src="images/fondpage3.png" alt="ordi ingénieurs"/>
+            </article>
+        </section>
+        <section id="page4">
+            <article>
+            	<img id="vetementshippie" src="images/vetementshippie.png" alt="stewart brand en hippie"/> 
+            	<div id="wholeearth"> 
+            		<h4>Le Whole Earth Catalog</h4>
+            		<p>Crée par Stewart Brand ce catalogue était destiné aux personnes adoptant un style de vie plus ou moins Hippie et très axé sur le Do It Yourself. A travers cela Brand souhaitait transmettre, partager et éduquer, son succès fut tel eu droit au National Book Award et ouvra boutique à Menlo Park pour vendre ses exemplaires.</p>
+            	</div>
+            	<img id="fond4" src="images/fondpage4.png" alt="hippie"/>
+           	</article>
+        </section>
+        <section id="page5">
+            <article>
+            	<img id="gifendingpage" src="images/gifendingpage.gif" alt="animation reliant les 3 communautés"/> 
+            	<div id="conclusion"> 
+            		<p>A première vue on aurait pu croire que ces trois communautés  n'aurais jamais su créer quelques chose ensemble de par leur différences, mais c'est justement grâce à celles-ci qu'elles ont puent se compléter et ainsi apporter chacune leur vision et leur concept afin de réaliser ce que l'on appelle aujourd'hui Internet !</p>
+            	</div>
+            </article>
+        </section>
+
+
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+</body>
+</html>
